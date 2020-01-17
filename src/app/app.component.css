@@ -1,10 +1,3 @@
-/* .alignToCenter{
-    
-   
-    align-items: center;
-   border-style : solid;
-} */
-
 .centerDiv{
     /* background-color: #C5C9B8;
     width: 100%;
@@ -19,15 +12,11 @@
     float: none; */
     border-style: solid;
     border-width: medium;
-    padding-top: 10px;
-    padding-left:30%;
-    padding-bottom: 10px;
-}
-
-.insideCalculator{
-    border-style: solid;
-    border-width: medium;
-    padding-left:12px;
-    padding-top: 10px;
-    width: 25%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom:1%;
+    position: fixed; /* or absolute */
+    top: 30%;
+    left: 40%;
 }

@@ -1,40 +1,37 @@
 <div class="centerDiv">
   <h4>Calculator</h4>
-  <div class="insideCalculator">
-    <div class="form">
-      <div class="form-group">
-        <input name="field" type="number" [(ngModel)]="number" id="enterNumber">
-      </div>
+  <div class="form">
+    <div class="form-group">
+      <input name="field" type="number" [(ngModel)]="number" id="enterNumber">
+    </div>
 
-      <div class="form-row">
-        <div class="form-group col-sm-0.5">
-          <button type="submit" color="primary" (click)="add()">+</button>
-        </div>
-        <div class="form-group col-sm-0.5">
-          <button type="submit" color="primary" (click)="subtract()">-</button>
-        </div>
-        <div class="form-group col-sm-0.5">
-          <button type="submit" color="primary" (click)="divide()">/</button>
-        </div>
+    <div class="form-row">
+      <div class="form-group col-sm-0.5">
+        <button type="submit" color="primary" (click)="add()">+</button>
       </div>
+      <div class="form-group col-sm-0.5">
+        <button type="submit" color="primary" (click)="subtract()">-</button>
+      </div>
+      <div class="form-group col-sm-0.5">
+        <button type="submit" color="primary" (click)="divide()">/</button>
+      </div>
+    </div>
 
-      <div class="form-row">
-        <div class="form-group col-sm-0.5">
-          <button type="submit" color="primary" (click)="multiply()">*</button>
-        </div>
-        <div class="form-group col-sm-0.5">
-          <button type="submit" color="primary" (click)="modulus()">%</button>
-        </div>
+    <div class="form-row">
+      <div class="form-group col-sm-0.5">
+        <button type="submit" color="primary" (click)="multiply()">*</button>
       </div>
-      <div class="form-row">
-        <div class="form-group col-sm-1.5">
-          <button type="submit" color="primary" (click)="calculateSum()">Calculate</button>
-        </div>
-        <div class="form-group col-sm-1.5">
-          <button type="submit" color="primary" (click)="reset()">Reset</button>
-        </div>
+      <div class="form-group col-sm-0.5">
+        <button type="submit" color="primary" (click)="modulus()">%</button>
       </div>
-
+    </div>
+    <div class="form-row">
+      <div class="form-group col-sm-1.5">
+        <button type="submit" color="primary" (click)="calculateSum()">Calculate</button>
+      </div>
+      <div class="form-group col-sm-1.5">
+        <button type="submit" color="primary" (click)="reset()">Reset</button>
+      </div>
     </div>
   </div>
 <div>
